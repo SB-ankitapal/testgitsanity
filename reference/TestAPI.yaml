@@ -151,7 +151,7 @@ paths:
       description: Create a new user.
       x-stoplight:
         id: nhtvcl4ynkr6r
-  /users/test:
+  /users/test/test12334444:
     get:
       summary: testGet
       tags: []
@@ -238,6 +238,7 @@ paths:
           in: query
           name: Address
           description: OPP
+    parameters: []
 components:
   schemas:
     User:
