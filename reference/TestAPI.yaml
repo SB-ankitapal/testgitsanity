@@ -151,6 +151,14 @@ paths:
       description: Create a new user.
       x-stoplight:
         id: nhtvcl4ynkr6r
+  /users/test:
+    get:
+      summary: testGet
+      tags: []
+      responses: {}
+      operationId: get-users-test
+      x-stoplight:
+        id: 7ya8ahuezf8m6
 components:
   schemas:
     User:

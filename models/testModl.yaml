@@ -1,0 +1,11 @@
+title: testModl
+x-stoplight:
+  id: timmghua8wrzo
+x-tags:
+  - NewModel
+type: object
+properties:
+  id:
+    type: string
+    x-stoplight:
+      id: ym5917dmcbx4c
