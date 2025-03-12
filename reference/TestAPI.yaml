@@ -171,6 +171,26 @@ paths:
                     type: string
                     x-stoplight:
                       id: e9todqpajji5q
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  Time:
+                    type: integer
+                    x-stoplight:
+                      id: sdc02brzr75i3
+                  Lane:
+                    x-stoplight:
+                      id: 3jvy7n42h2588
+                    type: array
+                    items: {}
+                  Distance:
+                    type: number
+                    x-stoplight:
+                      id: z6u2ewjgyahqg
       operationId: get-users-test
       x-stoplight:
         id: 7ya8ahuezf8m6
