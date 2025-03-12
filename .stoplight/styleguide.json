@@ -1,0 +1,28 @@
+{
+  "name": "TEstGitSanity",
+  "description": "",
+  "spectralExtends": [],
+  "extends": [],
+  "formats": [
+    "oas2",
+    "oas3",
+    "oas3.0",
+    "oas3.1"
+  ],
+  "aliases": {},
+  "rules": {
+    "NewRule": {
+      "id": "25T72H9wvKruZJHCDL0vX",
+      "given": [
+        ""
+      ],
+      "severity": "error",
+      "then": {
+        "function": "undefined"
+      },
+      "name": "NewRule",
+      "message": "TestMessage creation"
+    }
+  },
+  "extendedDefault": false
+}

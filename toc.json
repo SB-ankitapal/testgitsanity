@@ -1,0 +1,35 @@
+{
+  "collapseTableOfContents": false,
+  "items": [
+    {
+      "type": "item",
+      "title": "TestArticle",
+      "uri": "/docs/TestArticle.md"
+    },
+    {
+      "type": "divider",
+      "title": "APIS"
+    },
+    {
+      "type": "item",
+      "title": "TestAPI",
+      "uri": "/reference/TestAPI.yaml"
+    },
+    {
+      "type": "divider",
+      "title": "Schemas"
+    },
+    {
+      "type": "group",
+      "title": "NewModel",
+      "items": [
+        {
+          "type": "item",
+          "title": "testModl",
+          "uri": "/models/testModl.yaml"
+        }
+      ],
+      "itemsType": "model"
+    }
+  ]
+}
