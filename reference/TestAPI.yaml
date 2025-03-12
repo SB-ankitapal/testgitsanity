@@ -191,6 +191,17 @@ paths:
                     type: number
                     x-stoplight:
                       id: z6u2ewjgyahqg
+        '301':
+          description: Moved Permanently
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  lane:
+                    type: string
+                    x-stoplight:
+                      id: oji949xp1ceej
         '401':
           description: Unauthorized
           content:
