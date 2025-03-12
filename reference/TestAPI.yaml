@@ -155,7 +155,22 @@ paths:
     get:
       summary: testGet
       tags: []
-      responses: {}
+      responses:
+        '100':
+          description: Continue
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  name:
+                    type: string
+                    x-stoplight:
+                      id: sps759hfbd67i
+                  test:
+                    type: string
+                    x-stoplight:
+                      id: e9todqpajji5q
       operationId: get-users-test
       x-stoplight:
         id: 7ya8ahuezf8m6
