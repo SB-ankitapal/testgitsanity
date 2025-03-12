@@ -213,6 +213,17 @@ paths:
                     type: string
                     x-stoplight:
                       id: f3v845ykhmnh1
+        '599':
+          description: Network connect timeout error
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  tesingOP:
+                    type: string
+                    x-stoplight:
+                      id: 6ioksjtni3xrv
       operationId: get-users-test
       x-stoplight:
         id: 7ya8ahuezf8m6
