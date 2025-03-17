@@ -164,6 +164,14 @@ paths:
               schema:
                 type: object
                 properties: {}
+            application/soap+xml:
+              schema:
+                type: object
+                properties: {}
+            application/xml:
+              schema:
+                type: object
+                properties: {}
       operationId: get-new-test-users
       x-stoplight:
         id: ygm0466x9l6hh
