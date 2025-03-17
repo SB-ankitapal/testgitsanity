@@ -148,7 +148,22 @@ paths:
     get:
       summary: Your GET endpoint
       tags: []
-      responses: {}
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: {}
+            multipart/form-data:
+              schema:
+                type: object
+                properties: {}
+            application/x-bittorrent:
+              schema:
+                type: object
+                properties: {}
       operationId: get-new-test-users
       x-stoplight:
         id: ygm0466x9l6hh
