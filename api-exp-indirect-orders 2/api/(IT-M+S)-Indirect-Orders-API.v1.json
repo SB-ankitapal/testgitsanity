@@ -229,11 +229,73 @@
       "options": {
         "summary": "Your OPTIONS endpoint",
         "tags": [],
-        "responses": {},
+        "responses": {
+          "205": {
+            "description": "Reset Content",
+            "schema": {
+              "allOf": [
+                {
+                  "x-stoplight": {
+                    "id": "qdtdgw3ewhibk"
+                  },
+                  "properties": {
+                    "testNG": {
+                      "type": "string",
+                      "x-stoplight": {
+                        "id": "68gckqdopwy5i"
+                      }
+                    },
+                    "selenium": {
+                      "type": "string",
+                      "x-stoplight": {
+                        "id": "l2lf330n5i9ke"
+                      }
+                    },
+                    "responseref1": {
+                      "$ref": "stoplight://resources/overrides/YS7QQySZYz0"
+                    },
+                    "responseRef2": {
+                      "$ref": "stoplight://resources/overrides/BL3xE9PfKLs"
+                    },
+                    "ResponseRef3": {
+                      "$ref": "stoplight://resources/overrides/5YcFm4h43KE"
+                    }
+                  }
+                }
+              ],
+              "type": "object"
+            }
+          }
+        },
         "operationId": "options-new-user-test",
         "x-stoplight": {
           "id": "t4ybdza4vuk87"
-        }
+        },
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "allOf": [
+                {
+                  "properties": {
+                    "reqREf1": {
+                      "$ref": "stoplight://resources/overrides/YS7QQySZYz0"
+                    },
+                    "reqRef2": {
+                      "$ref": "stoplight://resources/overrides/BL3xE9PfKLs"
+                    },
+                    "reqRef3": {
+                      "$ref": "stoplight://resources/overrides/5YcFm4h43KE"
+                    }
+                  }
+                }
+              ],
+              "type": "object"
+            },
+            "description": "Requesting type...."
+          }
+        ]
       }
     }
   },
