@@ -215,6 +215,26 @@
           "id": "ovq5r15b6zet0"
         }
       }
+    },
+    "/new/user/test": {
+      "get": {
+        "summary": "Your GET endpoint",
+        "tags": [],
+        "responses": {},
+        "operationId": "get-new-user-test",
+        "x-stoplight": {
+          "id": "kyrsfwdhksb20"
+        }
+      },
+      "options": {
+        "summary": "Your OPTIONS endpoint",
+        "tags": [],
+        "responses": {},
+        "operationId": "options-new-user-test",
+        "x-stoplight": {
+          "id": "t4ybdza4vuk87"
+        }
+      }
     }
   },
   "definitions": {
