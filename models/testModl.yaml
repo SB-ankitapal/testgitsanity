@@ -9,11 +9,14 @@ properties:
     x-stoplight:
       id: ym5917dmcbx4c
     enum: []
+    description: id
   email:
     type: string
     x-stoplight:
       id: qvgu8rpt4fahi
+    description: email id
   name:
     type: string
     x-stoplight:
       id: ancgv0a7ejlwd
+    description: name details
