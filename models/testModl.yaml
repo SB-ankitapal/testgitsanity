@@ -6,6 +6,14 @@ x-tags:
 type: object
 properties:
   id:
-    type: string
     x-stoplight:
       id: ym5917dmcbx4c
+    enum: []
+  email:
+    type: string
+    x-stoplight:
+      id: qvgu8rpt4fahi
+  name:
+    type: string
+    x-stoplight:
+      id: ancgv0a7ejlwd
